@@ -29,11 +29,30 @@
                     <navigationItem key="navigationItem" title="Root View Controller" id="TRg-uL-KDo"/>
                     <connections>
                         <segue destination="Gcb-sA-1P2" kind="show" identifier="UITextFieldVC" id="Pkq-cX-xj9"/>
+                        <segue destination="Y6u-Kr-u32" kind="push" identifier="滑动手势锁屏" id="Kqe-Vb-sq2"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZR-Z5-WRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="38" y="162"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="25r-Nb-tze">
+            <objects>
+                <viewController id="Y6u-Kr-u32" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="0NX-ss-XMf"/>
+                        <viewControllerLayoutGuide type="bottom" id="qrN-eY-3rg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4Ki-Gq-8Js">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="SUH-6n-Hnf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eA5-F9-EI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="748.5" y="342"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="d1M-NP-1l8">
@@ -68,10 +87,10 @@
             </objects>
             <point key="canvasLocation" x="749" y="-308"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--NavVC-->
         <scene sceneID="kJK-AV-KAg">
             <objects>
-                <navigationController id="65k-Hr-jON" sceneMemberID="viewController">
+                <navigationController id="65k-Hr-jON" customClass="NavVC" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="e5i-aH-Wt8">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>

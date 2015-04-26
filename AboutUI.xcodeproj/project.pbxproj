@@ -17,6 +17,11 @@
 		3B3816171AE8C96B0004C306 /* UITextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3816161AE8C96B0004C306 /* UITextFieldVC.m */; };
 		3B38161A1AE8CB3B0004C306 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3816191AE8CB3B0004C306 /* CustomTextField.m */; };
 		3B38161E1AE8D54D0004C306 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B38161D1AE8D54D0004C306 /* NavVC.m */; };
+		3B91A87A1AECA1410001AC81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8751AECA1410001AC81 /* ViewController.m */; };
+		3B91A87B1AECA1410001AC81 /* YLCheckToUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8771AECA1410001AC81 /* YLCheckToUnlockViewController.m */; };
+		3B91A87C1AECA1410001AC81 /* YLInitSwipePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8791AECA1410001AC81 /* YLInitSwipePasswordController.m */; };
+		3B91A8821AECA1650001AC81 /* YLSwipeLockNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A87F1AECA1650001AC81 /* YLSwipeLockNodeView.m */; };
+		3B91A8831AECA1650001AC81 /* YLSwipeLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8811AECA1650001AC81 /* YLSwipeLockView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +55,16 @@
 		3B38161B1AE8D3B60004C306 /* WebsiteOrRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebsiteOrRecord.h; sourceTree = "<group>"; };
 		3B38161C1AE8D54D0004C306 /* NavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavVC.h; sourceTree = "<group>"; };
 		3B38161D1AE8D54D0004C306 /* NavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavVC.m; sourceTree = "<group>"; };
+		3B91A8741AECA1410001AC81 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B91A8751AECA1410001AC81 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B91A8761AECA1410001AC81 /* YLCheckToUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCheckToUnlockViewController.h; sourceTree = "<group>"; };
+		3B91A8771AECA1410001AC81 /* YLCheckToUnlockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCheckToUnlockViewController.m; sourceTree = "<group>"; };
+		3B91A8781AECA1410001AC81 /* YLInitSwipePasswordController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLInitSwipePasswordController.h; sourceTree = "<group>"; };
+		3B91A8791AECA1410001AC81 /* YLInitSwipePasswordController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLInitSwipePasswordController.m; sourceTree = "<group>"; };
+		3B91A87E1AECA1650001AC81 /* YLSwipeLockNodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwipeLockNodeView.h; sourceTree = "<group>"; };
+		3B91A87F1AECA1650001AC81 /* YLSwipeLockNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwipeLockNodeView.m; sourceTree = "<group>"; };
+		3B91A8801AECA1650001AC81 /* YLSwipeLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwipeLockView.h; sourceTree = "<group>"; };
+		3B91A8811AECA1650001AC81 /* YLSwipeLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwipeLockView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +109,7 @@
 				3B3815ED1AE8C73B0004C306 /* AppDelegate.h */,
 				3B3815EE1AE8C73B0004C306 /* AppDelegate.m */,
 				3B38161B1AE8D3B60004C306 /* WebsiteOrRecord.h */,
+				3B91A8701AECA0AB0001AC81 /* 滑动手势锁屏 */,
 				3B3816111AE8C7B10004C306 /* tableView */,
 				3B3816101AE8C7870004C306 /* UITextField */,
 				3B38160F1AE8C77C0004C306 /* Nav */,
@@ -158,6 +174,31 @@
 				3B3816131AE8C7D80004C306 /* tableController.m */,
 			);
 			name = tableView;
+			sourceTree = "<group>";
+		};
+		3B91A8701AECA0AB0001AC81 /* 滑动手势锁屏 */ = {
+			isa = PBXGroup;
+			children = (
+				3B91A8741AECA1410001AC81 /* ViewController.h */,
+				3B91A8751AECA1410001AC81 /* ViewController.m */,
+				3B91A8761AECA1410001AC81 /* YLCheckToUnlockViewController.h */,
+				3B91A8771AECA1410001AC81 /* YLCheckToUnlockViewController.m */,
+				3B91A8781AECA1410001AC81 /* YLInitSwipePasswordController.h */,
+				3B91A8791AECA1410001AC81 /* YLInitSwipePasswordController.m */,
+				3B91A87D1AECA1460001AC81 /* SwipeLockClass */,
+			);
+			name = "滑动手势锁屏";
+			sourceTree = "<group>";
+		};
+		3B91A87D1AECA1460001AC81 /* SwipeLockClass */ = {
+			isa = PBXGroup;
+			children = (
+				3B91A87E1AECA1650001AC81 /* YLSwipeLockNodeView.h */,
+				3B91A87F1AECA1650001AC81 /* YLSwipeLockNodeView.m */,
+				3B91A8801AECA1650001AC81 /* YLSwipeLockView.h */,
+				3B91A8811AECA1650001AC81 /* YLSwipeLockView.m */,
+			);
+			name = SwipeLockClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,12 +301,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B91A87A1AECA1410001AC81 /* ViewController.m in Sources */,
 				3B38161E1AE8D54D0004C306 /* NavVC.m in Sources */,
+				3B91A8831AECA1650001AC81 /* YLSwipeLockView.m in Sources */,
+				3B91A87C1AECA1410001AC81 /* YLInitSwipePasswordController.m in Sources */,
 				3B3816141AE8C7D80004C306 /* tableController.m in Sources */,
+				3B91A87B1AECA1410001AC81 /* YLCheckToUnlockViewController.m in Sources */,
 				3B3815EF1AE8C73B0004C306 /* AppDelegate.m in Sources */,
 				3B3816171AE8C96B0004C306 /* UITextFieldVC.m in Sources */,
 				3B38161A1AE8CB3B0004C306 /* CustomTextField.m in Sources */,
 				3B3815EC1AE8C73B0004C306 /* main.m in Sources */,
+				3B91A8821AECA1650001AC81 /* YLSwipeLockNodeView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

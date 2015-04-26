@@ -15,15 +15,6 @@
     self.leftViewMode = UITextFieldViewModeAlways;
 }
 
-
-
-
-
-
-
-
-
-
 // 改变占位符的颜色
 - (void) drawPlaceholderInRect:(CGRect)rect
 {

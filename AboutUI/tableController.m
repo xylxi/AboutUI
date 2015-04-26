@@ -18,7 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _UIName = [NSArray arrayWithObjects:@"UITextFieldVC", nil];
+    _UIName = [NSArray arrayWithObjects:@"UITextFieldVC",@"滑动手势锁屏", nil];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
