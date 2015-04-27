@@ -9,7 +9,7 @@
 #import "ChoiceMorePickVC.h"
 #import "XYLXIPickerVC.h"
 #import "XYLXIPickerNavVC.h"
-@interface ChoiceMorePickVC ()
+@interface ChoiceMorePickVC ()<XYLXIPickerNavVCDelegate>
 
 @end
 
@@ -23,12 +23,17 @@
     XYLXIPickerVC *picVC = [XYLXIPickerVC new];
     XYLXIPickerNavVC *nav = [[XYLXIPickerNavVC alloc]initWithRootViewController:picVC];
     picVC.parent = nav;
+    nav.xylxiPickerDelegate = self;
     [self presentViewController:nav animated:YES completion:nil];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
+- (void)xylxiPickerNavVC:(XYLXIPickerNavVC *)picker didFinishPickingMediaWithInfo:(NSArray *)info{
+    for (id object in info) {
+        NSLog(@"%@,%@",object,[object class]);
+    }
 }
-
+- (void)xylxiPickerNavVCDidCancel:(XYLXIPickerNavVC *)picker{
+    
+}
 
 @end
