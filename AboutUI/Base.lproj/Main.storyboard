@@ -30,11 +30,63 @@
                     <connections>
                         <segue destination="Gcb-sA-1P2" kind="show" identifier="UITextFieldVC" id="Pkq-cX-xj9"/>
                         <segue destination="Y6u-Kr-u32" kind="push" identifier="滑动手势锁屏" id="Kqe-Vb-sq2"/>
+                        <segue destination="izk-Ie-Efm" kind="push" identifier="照片选择器" id="Dal-DK-04s"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9ZR-Z5-WRa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="38" y="162"/>
+        </scene>
+        <!--Choice More PickVC-->
+        <scene sceneID="VXx-BB-tTa">
+            <objects>
+                <viewController id="izk-Ie-Efm" customClass="ChoiceMorePickVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="kMV-15-wPC"/>
+                        <viewControllerLayoutGuide type="bottom" id="oGW-ra-jGm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="bMn-zn-OpP">
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2YG-xE-pJ9">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="选择照片">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="choiceBtn:" destination="izk-Ie-Efm" eventType="touchUpInside" id="h8X-4T-9Qd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="2YG-xE-pJ9" firstAttribute="top" secondItem="kMV-15-wPC" secondAttribute="bottom" constant="19" id="OJB-17-Efb"/>
+                            <constraint firstAttribute="centerX" secondItem="2YG-xE-pJ9" secondAttribute="centerX" id="WeI-0g-svF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2YG-xE-pJ9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="OJB-17-Efb"/>
+                                <exclude reference="WeI-0g-svF"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="2YG-xE-pJ9"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="OJB-17-Efb"/>
+                                <include reference="WeI-0g-svF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="mX8-2X-TqC"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RwN-2W-3Q2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="811.5" y="491.25"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="25r-Nb-tze">
@@ -45,6 +97,7 @@
                         <viewControllerLayoutGuide type="bottom" id="qrN-eY-3rg"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="4Ki-Gq-8Js">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -52,12 +105,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eA5-F9-EI3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="748.5" y="342"/>
+            <point key="canvasLocation" x="802.5" y="-153"/>
         </scene>
-        <!--View Controller-->
+        <!--Text FieldVC-->
         <scene sceneID="d1M-NP-1l8">
             <objects>
-                <viewController id="Gcb-sA-1P2" sceneMemberID="viewController">
+                <viewController id="Gcb-sA-1P2" customClass="UITextFieldVC" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="PXh-PQ-P0t"/>
                         <viewControllerLayoutGuide type="bottom" id="v4a-oR-zQS"/>
@@ -82,10 +135,13 @@
                             <constraint firstAttribute="trailingMargin" secondItem="JaX-6N-mBx" secondAttribute="trailing" constant="20" id="fyl-FF-0Zf"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="textFiel" destination="JaX-6N-mBx" id="OHz-YU-cdr"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="T9N-4c-kCa" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749" y="-308"/>
+            <point key="canvasLocation" x="802.5" y="-792.75"/>
         </scene>
         <!--NavVC-->
         <scene sceneID="kJK-AV-KAg">

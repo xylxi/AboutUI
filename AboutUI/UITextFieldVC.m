@@ -7,8 +7,9 @@
 //
 
 #import "UITextFieldVC.h"
-
-@interface UITextFieldVC ()
+#import "CustomTextField.h"
+@interface UITextFieldVC ()<UITextFieldDelegate>
+@property (weak, nonatomic) IBOutlet CustomTextField *textFiel;
 
 @end
 
@@ -16,9 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
-}
 
+    self.textFiel.delegate = self;
+}
+- (BOOL)textFieldShouldReturn:(UITextField *)textField{
+    
+    NSString *zhengze=@"[A-Za-z\u4E00-\u9FA5]+$";
+    NSPredicate *pre = [NSPredicate predicateWithFormat:@"SELF MATCHES %@",zhengze];
+    if ([pre evaluateWithObject:textField.text] && textField.text.length < 20) {
+        NSLog(@"zhengqu");
+    }else{
+        NSLog(@"cuo wu");
+    }
+    return YES;
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

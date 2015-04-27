@@ -7,7 +7,6 @@
 //
 
 #import "tableController.h"
-
 @interface tableController ()
 @property (nonatomic,strong)NSArray *UIName;
 @property (nonatomic,copy)NSString  *vctitle;
@@ -18,7 +17,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    _UIName = [NSArray arrayWithObjects:@"UITextFieldVC",@"滑动手势锁屏", nil];
+    _UIName = [NSArray arrayWithObjects:@"UITextFieldVC",@"滑动手势锁屏",@"照片选择器", nil];
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 }
@@ -47,5 +46,7 @@
     UIViewController *vc = segue.destinationViewController;
     vc.title = self.vctitle;
 }
+
+#pragma mark - 刷新的方法
 
 @end

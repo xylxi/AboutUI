@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B0450A81AEE1E8200710294 /* ChoiceMorePickVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0450A71AEE1E8200710294 /* ChoiceMorePickVC.m */; };
+		3B0450C11AEE222800710294 /* XYLXIPickerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0450C01AEE222800710294 /* XYLXIPickerVC.m */; };
+		3B0450C41AEE239900710294 /* XYLXIPickerNavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0450C31AEE239900710294 /* XYLXIPickerNavVC.m */; };
+		3B0450C71AEE251100710294 /* XYLXIAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0450C61AEE251100710294 /* XYLXIAsset.m */; };
+		3B0450CA1AEE26AA00710294 /* Overlay.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0450C81AEE26AA00710294 /* Overlay.png */; };
+		3B0450CB1AEE26AA00710294 /* Overlay@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B0450C91AEE26AA00710294 /* Overlay@2x.png */; };
+		3B0450CE1AEE2C3700710294 /* XYLXIAssetVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0450CD1AEE2C3700710294 /* XYLXIAssetVC.m */; };
+		3B0450D11AEE314800710294 /* XYLXIAssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0450D01AEE314800710294 /* XYLXIAssetCell.m */; };
 		3B3815EC1AE8C73B0004C306 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3815EB1AE8C73B0004C306 /* main.m */; };
 		3B3815EF1AE8C73B0004C306 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3815EE1AE8C73B0004C306 /* AppDelegate.m */; };
 		3B3815F51AE8C73B0004C306 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B3815F31AE8C73B0004C306 /* Main.storyboard */; };
@@ -35,6 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B0450A61AEE1E8200710294 /* ChoiceMorePickVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoiceMorePickVC.h; sourceTree = "<group>"; };
+		3B0450A71AEE1E8200710294 /* ChoiceMorePickVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoiceMorePickVC.m; sourceTree = "<group>"; };
+		3B0450BF1AEE222800710294 /* XYLXIPickerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLXIPickerVC.h; sourceTree = "<group>"; };
+		3B0450C01AEE222800710294 /* XYLXIPickerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLXIPickerVC.m; sourceTree = "<group>"; };
+		3B0450C21AEE239900710294 /* XYLXIPickerNavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLXIPickerNavVC.h; sourceTree = "<group>"; };
+		3B0450C31AEE239900710294 /* XYLXIPickerNavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLXIPickerNavVC.m; sourceTree = "<group>"; };
+		3B0450C51AEE251100710294 /* XYLXIAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLXIAsset.h; sourceTree = "<group>"; };
+		3B0450C61AEE251100710294 /* XYLXIAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLXIAsset.m; sourceTree = "<group>"; };
+		3B0450C81AEE26AA00710294 /* Overlay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Overlay.png; sourceTree = "<group>"; };
+		3B0450C91AEE26AA00710294 /* Overlay@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Overlay@2x.png"; sourceTree = "<group>"; };
+		3B0450CC1AEE2C3700710294 /* XYLXIAssetVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLXIAssetVC.h; sourceTree = "<group>"; };
+		3B0450CD1AEE2C3700710294 /* XYLXIAssetVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLXIAssetVC.m; sourceTree = "<group>"; };
+		3B0450CF1AEE314800710294 /* XYLXIAssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLXIAssetCell.h; sourceTree = "<group>"; };
+		3B0450D01AEE314800710294 /* XYLXIAssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLXIAssetCell.m; sourceTree = "<group>"; };
 		3B3815E61AE8C73B0004C306 /* AboutUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AboutUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B3815EA1AE8C73B0004C306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B3815EB1AE8C73B0004C306 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +107,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B0450A51AEE1E5200710294 /* 照片多选控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				3B0450C81AEE26AA00710294 /* Overlay.png */,
+				3B0450C91AEE26AA00710294 /* Overlay@2x.png */,
+				3B0450A61AEE1E8200710294 /* ChoiceMorePickVC.h */,
+				3B0450A71AEE1E8200710294 /* ChoiceMorePickVC.m */,
+				3B0450C21AEE239900710294 /* XYLXIPickerNavVC.h */,
+				3B0450C31AEE239900710294 /* XYLXIPickerNavVC.m */,
+				3B0450BF1AEE222800710294 /* XYLXIPickerVC.h */,
+				3B0450C01AEE222800710294 /* XYLXIPickerVC.m */,
+				3B0450CC1AEE2C3700710294 /* XYLXIAssetVC.h */,
+				3B0450CD1AEE2C3700710294 /* XYLXIAssetVC.m */,
+				3B0450C51AEE251100710294 /* XYLXIAsset.h */,
+				3B0450C61AEE251100710294 /* XYLXIAsset.m */,
+				3B0450CF1AEE314800710294 /* XYLXIAssetCell.h */,
+				3B0450D01AEE314800710294 /* XYLXIAssetCell.m */,
+				3B0450A91AEE209700710294 /* picClass */,
+			);
+			name = "照片多选控制器";
+			sourceTree = "<group>";
+		};
+		3B0450A91AEE209700710294 /* picClass */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = picClass;
+			sourceTree = "<group>";
+		};
 		3B3815DD1AE8C73B0004C306 = {
 			isa = PBXGroup;
 			children = (
@@ -109,8 +160,9 @@
 				3B3815ED1AE8C73B0004C306 /* AppDelegate.h */,
 				3B3815EE1AE8C73B0004C306 /* AppDelegate.m */,
 				3B38161B1AE8D3B60004C306 /* WebsiteOrRecord.h */,
+				3B0450A51AEE1E5200710294 /* 照片多选控制器 */,
 				3B91A8701AECA0AB0001AC81 /* 滑动手势锁屏 */,
-				3B3816111AE8C7B10004C306 /* tableView */,
+				3B3816111AE8C7B10004C306 /* 下拉刷新 */,
 				3B3816101AE8C7870004C306 /* UITextField */,
 				3B38160F1AE8C77C0004C306 /* Nav */,
 				3B3815F31AE8C73B0004C306 /* Main.storyboard */,
@@ -167,13 +219,13 @@
 			name = UITextField;
 			sourceTree = "<group>";
 		};
-		3B3816111AE8C7B10004C306 /* tableView */ = {
+		3B3816111AE8C7B10004C306 /* 下拉刷新 */ = {
 			isa = PBXGroup;
 			children = (
 				3B3816121AE8C7D80004C306 /* tableController.h */,
 				3B3816131AE8C7D80004C306 /* tableController.m */,
 			);
-			name = tableView;
+			name = "下拉刷新";
 			sourceTree = "<group>";
 		};
 		3B91A8701AECA0AB0001AC81 /* 滑动手势锁屏 */ = {
@@ -281,6 +333,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0450CB1AEE26AA00710294 /* Overlay@2x.png in Resources */,
+				3B0450CA1AEE26AA00710294 /* Overlay.png in Resources */,
 				3B3815F51AE8C73B0004C306 /* Main.storyboard in Resources */,
 				3B3815FA1AE8C73B0004C306 /* LaunchScreen.xib in Resources */,
 				3B3815F71AE8C73B0004C306 /* Images.xcassets in Resources */,
@@ -301,13 +355,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B0450CE1AEE2C3700710294 /* XYLXIAssetVC.m in Sources */,
+				3B0450D11AEE314800710294 /* XYLXIAssetCell.m in Sources */,
 				3B91A87A1AECA1410001AC81 /* ViewController.m in Sources */,
 				3B38161E1AE8D54D0004C306 /* NavVC.m in Sources */,
 				3B91A8831AECA1650001AC81 /* YLSwipeLockView.m in Sources */,
+				3B0450C41AEE239900710294 /* XYLXIPickerNavVC.m in Sources */,
+				3B0450A81AEE1E8200710294 /* ChoiceMorePickVC.m in Sources */,
+				3B0450C71AEE251100710294 /* XYLXIAsset.m in Sources */,
 				3B91A87C1AECA1410001AC81 /* YLInitSwipePasswordController.m in Sources */,
 				3B3816141AE8C7D80004C306 /* tableController.m in Sources */,
 				3B91A87B1AECA1410001AC81 /* YLCheckToUnlockViewController.m in Sources */,
 				3B3815EF1AE8C73B0004C306 /* AppDelegate.m in Sources */,
+				3B0450C11AEE222800710294 /* XYLXIPickerVC.m in Sources */,
 				3B3816171AE8C96B0004C306 /* UITextFieldVC.m in Sources */,
 				3B38161A1AE8CB3B0004C306 /* CustomTextField.m in Sources */,
 				3B3815EC1AE8C73B0004C306 /* main.m in Sources */,
