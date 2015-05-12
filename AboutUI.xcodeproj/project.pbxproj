@@ -25,6 +25,22 @@
 		3B3816171AE8C96B0004C306 /* UITextFieldVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3816161AE8C96B0004C306 /* UITextFieldVC.m */; };
 		3B38161A1AE8CB3B0004C306 /* CustomTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B3816191AE8CB3B0004C306 /* CustomTextField.m */; };
 		3B38161E1AE8D54D0004C306 /* NavVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B38161D1AE8D54D0004C306 /* NavVC.m */; };
+		3B7211AA1B00E22200EE31CC /* AWCollectionViewDialLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7211A91B00E22200EE31CC /* AWCollectionViewDialLayout.m */; };
+		3B7211AD1B00E25B00EE31CC /* CustomLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7211AC1B00E25B00EE31CC /* CustomLayoutViewController.m */; };
+		3B7211AF1B00E26100EE31CC /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211AE1B00E26100EE31CC /* Main_iPhone.storyboard */; };
+		3B7211B21B00E32400EE31CC /* dialCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211B01B00E32400EE31CC /* dialCell.xib */; };
+		3B7211B31B00E32400EE31CC /* dialCell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211B11B00E32400EE31CC /* dialCell2.xib */; };
+		3B7211B51B00E34300EE31CC /* players.json in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211B41B00E34300EE31CC /* players.json */; };
+		3B7211C01B00E36000EE31CC /* awcollectionviewdiallayout_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211B71B00E36000EE31CC /* awcollectionviewdiallayout_1.jpg */; };
+		3B7211C11B00E36000EE31CC /* awcollectionviewdiallayout_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211B81B00E36000EE31CC /* awcollectionviewdiallayout_2.jpg */; };
+		3B7211C21B00E36000EE31CC /* carmelo_anthony.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211B91B00E36000EE31CC /* carmelo_anthony.png */; };
+		3B7211C31B00E36000EE31CC /* dwayne_wade.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211BA1B00E36000EE31CC /* dwayne_wade.png */; };
+		3B7211C41B00E36000EE31CC /* james_harden.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211BB1B00E36000EE31CC /* james_harden.png */; };
+		3B7211C51B00E36000EE31CC /* kevin_durant.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211BC1B00E36000EE31CC /* kevin_durant.png */; };
+		3B7211C61B00E36000EE31CC /* kyrie_irving.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211BD1B00E36000EE31CC /* kyrie_irving.png */; };
+		3B7211C71B00E36000EE31CC /* lebron_james.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211BE1B00E36000EE31CC /* lebron_james.png */; };
+		3B7211C81B00E36000EE31CC /* paul_george.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211BF1B00E36000EE31CC /* paul_george.png */; };
+		3B7211CA1B00E39900EE31CC /* iphone_settings_view.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B7211C91B00E39900EE31CC /* iphone_settings_view.xib */; };
 		3B91A87A1AECA1410001AC81 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8751AECA1410001AC81 /* ViewController.m */; };
 		3B91A87B1AECA1410001AC81 /* YLCheckToUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8771AECA1410001AC81 /* YLCheckToUnlockViewController.m */; };
 		3B91A87C1AECA1410001AC81 /* YLInitSwipePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8791AECA1410001AC81 /* YLInitSwipePasswordController.m */; };
@@ -77,6 +93,24 @@
 		3B38161B1AE8D3B60004C306 /* WebsiteOrRecord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebsiteOrRecord.h; sourceTree = "<group>"; };
 		3B38161C1AE8D54D0004C306 /* NavVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavVC.h; sourceTree = "<group>"; };
 		3B38161D1AE8D54D0004C306 /* NavVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavVC.m; sourceTree = "<group>"; };
+		3B7211A81B00E22200EE31CC /* AWCollectionViewDialLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AWCollectionViewDialLayout.h; sourceTree = "<group>"; };
+		3B7211A91B00E22200EE31CC /* AWCollectionViewDialLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AWCollectionViewDialLayout.m; sourceTree = "<group>"; };
+		3B7211AB1B00E25B00EE31CC /* CustomLayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomLayoutViewController.h; sourceTree = "<group>"; };
+		3B7211AC1B00E25B00EE31CC /* CustomLayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomLayoutViewController.m; sourceTree = "<group>"; };
+		3B7211AE1B00E26100EE31CC /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		3B7211B01B00E32400EE31CC /* dialCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dialCell.xib; sourceTree = "<group>"; };
+		3B7211B11B00E32400EE31CC /* dialCell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = dialCell2.xib; sourceTree = "<group>"; };
+		3B7211B41B00E34300EE31CC /* players.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = players.json; sourceTree = "<group>"; };
+		3B7211B71B00E36000EE31CC /* awcollectionviewdiallayout_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = awcollectionviewdiallayout_1.jpg; sourceTree = "<group>"; };
+		3B7211B81B00E36000EE31CC /* awcollectionviewdiallayout_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = awcollectionviewdiallayout_2.jpg; sourceTree = "<group>"; };
+		3B7211B91B00E36000EE31CC /* carmelo_anthony.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = carmelo_anthony.png; sourceTree = "<group>"; };
+		3B7211BA1B00E36000EE31CC /* dwayne_wade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dwayne_wade.png; sourceTree = "<group>"; };
+		3B7211BB1B00E36000EE31CC /* james_harden.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = james_harden.png; sourceTree = "<group>"; };
+		3B7211BC1B00E36000EE31CC /* kevin_durant.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kevin_durant.png; sourceTree = "<group>"; };
+		3B7211BD1B00E36000EE31CC /* kyrie_irving.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kyrie_irving.png; sourceTree = "<group>"; };
+		3B7211BE1B00E36000EE31CC /* lebron_james.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lebron_james.png; sourceTree = "<group>"; };
+		3B7211BF1B00E36000EE31CC /* paul_george.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paul_george.png; sourceTree = "<group>"; };
+		3B7211C91B00E39900EE31CC /* iphone_settings_view.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iphone_settings_view.xib; sourceTree = "<group>"; };
 		3B91A8741AECA1410001AC81 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3B91A8751AECA1410001AC81 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3B91A8761AECA1410001AC81 /* YLCheckToUnlockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCheckToUnlockViewController.h; sourceTree = "<group>"; };
@@ -168,6 +202,7 @@
 				3B3815ED1AE8C73B0004C306 /* AppDelegate.h */,
 				3B3815EE1AE8C73B0004C306 /* AppDelegate.m */,
 				3B38161B1AE8D3B60004C306 /* WebsiteOrRecord.h */,
+				3B7211A71B00E1F900EE31CC /* 自定义的ColloectionLayout */,
 				3B0450A51AEE1E5200710294 /* 照片多选控制器 */,
 				3B91A8701AECA0AB0001AC81 /* 滑动手势锁屏 */,
 				3B3816111AE8C7B10004C306 /* 下拉刷新 */,
@@ -234,6 +269,39 @@
 				3B3816131AE8C7D80004C306 /* tableController.m */,
 			);
 			name = "下拉刷新";
+			sourceTree = "<group>";
+		};
+		3B7211A71B00E1F900EE31CC /* 自定义的ColloectionLayout */ = {
+			isa = PBXGroup;
+			children = (
+				3B7211AE1B00E26100EE31CC /* Main_iPhone.storyboard */,
+				3B7211B01B00E32400EE31CC /* dialCell.xib */,
+				3B7211B11B00E32400EE31CC /* dialCell2.xib */,
+				3B7211C91B00E39900EE31CC /* iphone_settings_view.xib */,
+				3B7211A81B00E22200EE31CC /* AWCollectionViewDialLayout.h */,
+				3B7211A91B00E22200EE31CC /* AWCollectionViewDialLayout.m */,
+				3B7211AB1B00E25B00EE31CC /* CustomLayoutViewController.h */,
+				3B7211AC1B00E25B00EE31CC /* CustomLayoutViewController.m */,
+				3B7211B41B00E34300EE31CC /* players.json */,
+				3B7211B61B00E34800EE31CC /* image */,
+			);
+			name = "自定义的ColloectionLayout";
+			sourceTree = "<group>";
+		};
+		3B7211B61B00E34800EE31CC /* image */ = {
+			isa = PBXGroup;
+			children = (
+				3B7211B71B00E36000EE31CC /* awcollectionviewdiallayout_1.jpg */,
+				3B7211B81B00E36000EE31CC /* awcollectionviewdiallayout_2.jpg */,
+				3B7211B91B00E36000EE31CC /* carmelo_anthony.png */,
+				3B7211BA1B00E36000EE31CC /* dwayne_wade.png */,
+				3B7211BB1B00E36000EE31CC /* james_harden.png */,
+				3B7211BC1B00E36000EE31CC /* kevin_durant.png */,
+				3B7211BD1B00E36000EE31CC /* kyrie_irving.png */,
+				3B7211BE1B00E36000EE31CC /* lebron_james.png */,
+				3B7211BF1B00E36000EE31CC /* paul_george.png */,
+			);
+			name = image;
 			sourceTree = "<group>";
 		};
 		3B91A8701AECA0AB0001AC81 /* 滑动手势锁屏 */ = {
@@ -341,10 +409,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B7211C71B00E36000EE31CC /* lebron_james.png in Resources */,
+				3B7211C51B00E36000EE31CC /* kevin_durant.png in Resources */,
 				3B0450CB1AEE26AA00710294 /* Overlay@2x.png in Resources */,
+				3B7211C21B00E36000EE31CC /* carmelo_anthony.png in Resources */,
+				3B7211C31B00E36000EE31CC /* dwayne_wade.png in Resources */,
 				3B0450CA1AEE26AA00710294 /* Overlay.png in Resources */,
+				3B7211C81B00E36000EE31CC /* paul_george.png in Resources */,
+				3B7211C61B00E36000EE31CC /* kyrie_irving.png in Resources */,
+				3B7211C41B00E36000EE31CC /* james_harden.png in Resources */,
+				3B7211B31B00E32400EE31CC /* dialCell2.xib in Resources */,
+				3B7211AF1B00E26100EE31CC /* Main_iPhone.storyboard in Resources */,
 				3B3815F51AE8C73B0004C306 /* Main.storyboard in Resources */,
+				3B7211B51B00E34300EE31CC /* players.json in Resources */,
+				3B7211CA1B00E39900EE31CC /* iphone_settings_view.xib in Resources */,
+				3B7211C11B00E36000EE31CC /* awcollectionviewdiallayout_2.jpg in Resources */,
 				3B3815FA1AE8C73B0004C306 /* LaunchScreen.xib in Resources */,
+				3B7211B21B00E32400EE31CC /* dialCell.xib in Resources */,
+				3B7211C01B00E36000EE31CC /* awcollectionviewdiallayout_1.jpg in Resources */,
 				3B3815F71AE8C73B0004C306 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +451,8 @@
 				3B38161E1AE8D54D0004C306 /* NavVC.m in Sources */,
 				3B91A8831AECA1650001AC81 /* YLSwipeLockView.m in Sources */,
 				3B0450C41AEE239900710294 /* XYLXIPickerNavVC.m in Sources */,
+				3B7211AD1B00E25B00EE31CC /* CustomLayoutViewController.m in Sources */,
+				3B7211AA1B00E22200EE31CC /* AWCollectionViewDialLayout.m in Sources */,
 				3B0450A81AEE1E8200710294 /* ChoiceMorePickVC.m in Sources */,
 				3B0450C71AEE251100710294 /* XYLXIAsset.m in Sources */,
 				3B91A87C1AECA1410001AC81 /* YLInitSwipePasswordController.m in Sources */,
