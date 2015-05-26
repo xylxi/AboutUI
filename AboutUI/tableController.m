@@ -10,6 +10,7 @@
 @interface tableController ()<UIScrollViewDelegate>
 @property (nonatomic,strong)NSArray *UIName;
 @property (nonatomic,copy)NSString  *vctitle;
+@property (nonatomic,assign)BOOL     isHide;
 @end
 
 @implementation tableController
@@ -50,14 +51,27 @@
 
 #pragma mark - 刷新的方法
 - (void)scrollViewDidEndDecelerating:(UIScrollView *)scrollView{
-    NSLog(@"before%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
-    [UIView animateWithDuration:0.34 animations:^{
-        self.navigationController.navigationBar.transform = CGAffineTransformMakeTranslation(0, -64);
-        NSLog(@"%f",self.tableView.contentInset.top);
-        self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
-    } completion:^(BOOL finished) {
-        NSLog(@"after%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
-    }];
+    if (self.isHide == NO) {
+        NSLog(@"before%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
+        [UIView animateWithDuration:0.34 animations:^{
+            self.navigationController.navigationBar.transform = CGAffineTransformMakeTranslation(0, -64);
+            NSLog(@"%f",self.tableView.contentInset.top);
+            self.tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
+        } completion:^(BOOL finished) {
+            NSLog(@"after%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
+        }];
+    }else{
+        NSLog(@"before%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
+        [UIView animateWithDuration:0.34 animations:^{
+            self.navigationController.navigationBar.transform = CGAffineTransformMakeTranslation(0, 0);
+            NSLog(@"%f",self.tableView.contentInset.top);
+            self.tableView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
+        } completion:^(BOOL finished) {
+            NSLog(@"after%@",NSStringFromCGRect(self.navigationController.navigationBar.frame));
+        }];
+    }
+    self.isHide = !self.isHide;
 }
+
 
 @end

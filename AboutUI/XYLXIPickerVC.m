@@ -98,6 +98,7 @@
     
     // Move me
     vc.assetGroup    = [self.assetGroups objectAtIndex:indexPath.row];
+#warning ALAssetsGroup 可以使用setAssetsFilter:(ALAssetsFilter *)filter过滤照片或者视频等。
     [vc.assetGroup setAssetsFilter:[ALAssetsFilter allPhotos]];
     
     [self.navigationController pushViewController:vc animated:YES];
