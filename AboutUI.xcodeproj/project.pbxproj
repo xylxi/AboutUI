@@ -46,6 +46,8 @@
 		3B91A87C1AECA1410001AC81 /* YLInitSwipePasswordController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8791AECA1410001AC81 /* YLInitSwipePasswordController.m */; };
 		3B91A8821AECA1650001AC81 /* YLSwipeLockNodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A87F1AECA1650001AC81 /* YLSwipeLockNodeView.m */; };
 		3B91A8831AECA1650001AC81 /* YLSwipeLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B91A8811AECA1650001AC81 /* YLSwipeLockView.m */; };
+		3BAAC9EB1B27ED4C006FB884 /* XYLXIAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAAC9E91B27ED4C006FB884 /* XYLXIAlertView.m */; };
+		3BAAC9EC1B27ED4C006FB884 /* XYLXIAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BAAC9EA1B27ED4C006FB884 /* XYLXIAlertView.xib */; };
 		3BBE91AC1B0A5846005C989F /* WaterfallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE91AB1B0A5846005C989F /* WaterfallViewController.m */; };
 		3BBE91B31B0A5862005C989F /* LNWaterfallFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE91AE1B0A5862005C989F /* LNWaterfallFlowCell.m */; };
 		3BBE91B41B0A5862005C989F /* LNWaterfallFlowFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBE91B01B0A5862005C989F /* LNWaterfallFlowFooterView.m */; };
@@ -144,6 +146,9 @@
 		3B91A87F1AECA1650001AC81 /* YLSwipeLockNodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwipeLockNodeView.m; sourceTree = "<group>"; };
 		3B91A8801AECA1650001AC81 /* YLSwipeLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLSwipeLockView.h; sourceTree = "<group>"; };
 		3B91A8811AECA1650001AC81 /* YLSwipeLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLSwipeLockView.m; sourceTree = "<group>"; };
+		3BAAC9E81B27ED4C006FB884 /* XYLXIAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYLXIAlertView.h; sourceTree = "<group>"; };
+		3BAAC9E91B27ED4C006FB884 /* XYLXIAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYLXIAlertView.m; sourceTree = "<group>"; };
+		3BAAC9EA1B27ED4C006FB884 /* XYLXIAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XYLXIAlertView.xib; sourceTree = "<group>"; };
 		3BBE91AA1B0A5846005C989F /* WaterfallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallViewController.h; sourceTree = "<group>"; };
 		3BBE91AB1B0A5846005C989F /* WaterfallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallViewController.m; sourceTree = "<group>"; };
 		3BBE91AD1B0A5862005C989F /* LNWaterfallFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LNWaterfallFlowCell.h; sourceTree = "<group>"; };
@@ -269,6 +274,7 @@
 				3B3815ED1AE8C73B0004C306 /* AppDelegate.h */,
 				3B3815EE1AE8C73B0004C306 /* AppDelegate.m */,
 				3B38161B1AE8D3B60004C306 /* WebsiteOrRecord.h */,
+				3BAAC9E71B27ED37006FB884 /* 两个按钮的alertView */,
 				3BBE91A61B0A5787005C989F /* 瀑布流Layout */,
 				3B7211A71B00E1F900EE31CC /* 自定义的ColloectionLayout */,
 				3B0450A51AEE1E5200710294 /* 照片多选控制器 */,
@@ -395,6 +401,16 @@
 				3B91A8811AECA1650001AC81 /* YLSwipeLockView.m */,
 			);
 			name = SwipeLockClass;
+			sourceTree = "<group>";
+		};
+		3BAAC9E71B27ED37006FB884 /* 两个按钮的alertView */ = {
+			isa = PBXGroup;
+			children = (
+				3BAAC9E81B27ED4C006FB884 /* XYLXIAlertView.h */,
+				3BAAC9E91B27ED4C006FB884 /* XYLXIAlertView.m */,
+				3BAAC9EA1B27ED4C006FB884 /* XYLXIAlertView.xib */,
+			);
+			name = "两个按钮的alertView";
 			sourceTree = "<group>";
 		};
 		3BBE91A61B0A5787005C989F /* 瀑布流Layout */ = {
@@ -578,6 +594,7 @@
 				3B7211CA1B00E39900EE31CC /* iphone_settings_view.xib in Resources */,
 				3B7211C11B00E36000EE31CC /* awcollectionviewdiallayout_2.jpg in Resources */,
 				3B3815FA1AE8C73B0004C306 /* LaunchScreen.xib in Resources */,
+				3BAAC9EC1B27ED4C006FB884 /* XYLXIAlertView.xib in Resources */,
 				3B7211B21B00E32400EE31CC /* dialCell.xib in Resources */,
 				3B7211C01B00E36000EE31CC /* awcollectionviewdiallayout_1.jpg in Resources */,
 				3B3815F71AE8C73B0004C306 /* Images.xcassets in Resources */,
@@ -636,6 +653,7 @@
 				3BBE91E21B0A59DA005C989F /* SDImageCache.m in Sources */,
 				3BBE91B81B0A5878005C989F /* LNGood.m in Sources */,
 				3B91A8821AECA1650001AC81 /* YLSwipeLockNodeView.m in Sources */,
+				3BAAC9EB1B27ED4C006FB884 /* XYLXIAlertView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

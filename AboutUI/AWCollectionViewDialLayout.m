@@ -51,7 +51,7 @@
     self.cellCount = (int)[self.collectionView numberOfItemsInSection:0];
     // 这个self.offset我的了解是，根据比例大概知道cell的样子.例如缩放的大小，旋转的角度，X轴的偏移量
     self.offset = -self.collectionView.contentOffset.y / self.itemHeight;
-//    NSLog(@"offset->%f",self.offset);
+    NSLog(@"offset->%f",self.offset);
 }
 
 - (BOOL)shouldInvalidateLayoutForBoundsChange:(CGRect)newBounds
@@ -98,8 +98,6 @@
 - (CGSize)collectionViewContentSize
 {
     const CGSize theSize = {
-//        .height = self.collectionView.bounds.size.height,
-//        .width  = (self.cellCount - 1) * self.itemHeight + self.collectionView.bounds.size.width,
         .width = self.collectionView.bounds.size.width,
         .height = (self.cellCount-1) * self.itemHeight + self.collectionView.bounds.size.height,
     };
@@ -121,7 +119,7 @@
     
     CGAffineTransform translationT;
     CGAffineTransform rotationT = CGAffineTransformMakeRotation(self.AngularSpacing* newIndex *M_PI/180);
-    NSLog(@"角度%f",self.AngularSpacing * newIndex * M_PI);
+//    NSLog(@"角度%f",self.AngularSpacing * newIndex * M_PI);
     if(indexPath.item == 3){
 //        NSLog(@"angle 3 :%f", self.AngularSpacing* newIndex);
 
